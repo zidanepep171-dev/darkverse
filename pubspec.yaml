@@ -4,7 +4,7 @@ publish_to: 'none'
 version: 2.0.0
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ">=3.5.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -31,7 +31,7 @@ dependencies:
   path_provider: ^2.1.5
 
   # UI
-  font_awesome_flutter: ^10.7.0
+  font_awesome_flutter: ^10.8.0
   carousel_slider: ^4.2.1
 
   # Network
@@ -55,7 +55,7 @@ flutter_launcher_icons:
   android: true
   ios: true
   image_path_android: assets/icon/icon.jpg
-  image_path_ios: assets/icon/icon/icon.jpg
+  image_path_ios: assets/icon/icon.jpg
   image_path: assets/icon/icon.jpg
   min_sdk_android: 21
 
