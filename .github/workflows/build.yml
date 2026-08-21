@@ -24,8 +24,11 @@ jobs:
       with:
         channel: 'stable'
 
-    - name: Install Dependencies
-      run: flutter pub get
+    - name: Fix FontAwesome and Dependencies
+      run: |
+        rm -f pubspec.lock
+        flutter pub upgrade font_awesome_flutter
+        flutter pub get
 
     - name: Build APK
       run: flutter build apk --release --android-skip-build-dependency-validation
