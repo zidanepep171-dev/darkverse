@@ -13,7 +13,7 @@ import 'package:device_info_plus/device_info_plus.dart';
 import 'dv_theme.dart';
 import 'splash.dart';
 
-const String baseUrl = 'http://rezacloudlegal.sistems.tech:2266';
+const String baseUrl = 'http://127.0.0.1:3500';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
